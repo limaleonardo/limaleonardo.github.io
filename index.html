@@ -2,11 +2,62 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+  
   <title>Portifólio Leonardo Lima | Educacional</title>
 </head>
 
+<style>
+  body{
+    background: rgb(159,118,193);
+    background: radial-gradient(circle, rgba(159,118,193,1) 20%, rgba(252,70,107,1) 80%);
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: rgb(71, 23, 71);
+  }
+
+  #pic{
+    border-radius: 100%;
+    
+  }
+  #my-name{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .general-text{
+    font-family: 'Open Sans', sans-serif;   
+  }
+
+  strong{
+    font-size: 1.1em;
+  }
+
+  del{
+    color: rgb(132, 194, 194);
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .high-emphasis{
+    font-weight: 600;
+    font-size: 1.1em;    
+  }
+
+  .low-emphasis{
+    font-weight: 200;
+    font-size: 0.95em;
+  }
+
+</style>
+
 <body>
-  <h1 id="top">Leonardo Rodrigues Lima</h1>
+  <h1 id="my-name">Leonardo Rodrigues Lima</h1>
 
   <br><br>
   
@@ -16,21 +67,21 @@
 
   <section>
     <h2 id="about-me">About Me</h2>
-    <p>
+    <p class="general-text">
       Sou um jovem paulista de 28 anos, perdido nas, bélissimas terras, de Minas Gerais.
-      Ex-estudante de Engenharia Mecânica e atualmente trilhando o maravilhoso caminho para me tornar um <strike>Mago da web</strike> <strong>desenvolvedor web</strong>
+      Ex-estudante de Engenharia Mecânica e atualmente trilhando o maravilhoso caminho para me tornar um <del>Mago da web</del> <strong>desenvolvedor web</strong>
     </p>
 
     
-    <h3 id="my-skills">Minhas Habilidades</h3id> 
+    <h3 id="my-skills">Minhas Habilidades</h3> 
 
     <ul>
-      <li><em>Criatividade na resolução de problemas</em></li>
-      <li>Noções de HTML</li>
-      <li>Noções de CSS</li>
-      <li>Git e GitHub</li>
-      <li><strong>Vasta experiência no desenvolvimento de projetos <strike>mecânicos</strike></strong></li>
-      <li><strong>Cozinheiro de Mão-Cheia</strong><strike>(sucesso nos jantares e churrascos da empresa)</strike></li>
+      <li class="high-emphasis">Criatividade na resolução de problemas</li>
+      <li class="low-emphasis">Noções de HTML</li>
+      <li class="low-emphasis">Noções de CSS</li>
+      <li class="high-emphasis">Git e GitHub</li>
+      <li class="low-emphasis">Vasta experiência no desenvolvimento de projetos <del>mecânicos</del></li>
+      <li class="high-emphasis">Cozinheiro de Mão-Cheia<del>(sucesso nos jantares e churrascos da empresa)</del></li>
     </ul>
   </section>
 
@@ -47,7 +98,7 @@
   <section id="map">
     <h2>Mapa do Site</h2>
     <ul>
-      <li><a href="#top">Topo da Página</a></li>
+      <li><a href="#my-name">Topo da Página</a></li>
       <li><a href="#pic">Foto do perfil</a></li>
       <li><a href="#about-me">About Me</a></li>
       <li><a href="#my-skills"">Minhas Habilidades</a></li>
